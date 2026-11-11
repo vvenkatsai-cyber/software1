@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #0f172a;
+            color: white;
+        }
+
+        header {
+            background: #1e293b;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        section {
+            padding: 50px 10%;
+            text-align: center;
+        }
+
+        h1 {
+            color: #38bdf8;
+            margin-bottom: 20px;
+        }
+
+        .skills, .projects {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 25px;
+            border-radius: 12px;
+            width: 220px;
+            margin-top: 20px;
+        }
+
+        button {
+            background: #38bdf8;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        footer {
+            background: #1e293b;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>My Portfolio</h2>
+    <br>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home">
+    <h1>Hello, I'm Venkat Sai</h1>
+    <h3>Cyber Security Student | Web Developer</h3>
+    <p>Welcome to my personal portfolio website.</p>
+    <button onclick="alert('Thank you for visiting my portfolio!')">
+        Explore More
+    </button>
+</section>
+
+<section id="about">
+    <h1>About Me</h1>
+    <p>
+        I am a B.Tech Computer Science student
+        specializing in Cyber Security.
+        I am interested in ethical hacking,
+        programming and technology.
+    </p>
+</section>
+
+<section id="skills">
+    <h1>My Skills</h1>
+    <div class="skills">
+        <div class="card">HTML & CSS</div>
+        <div class="card">Python</div>
+        <div class="card">Cyber Security</div>
+        <div class="card">Java</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h1>My Projects</h1>
+    <div class="projects">
+        <div class="card">
+            <h3>She-Cure</h3>
+            <p>Women Safety Application</p>
+        </div>
+
+        <div class="card">
+            <h3>AI Assistant</h3>
+            <p>Personal AI Assistant Project</p>
+        </div>
+
+        <div class="card">
+            <h3>Waste Classification</h3>
+            <p>AI-based Waste Detection</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h1>Contact Me</h1>
+    <p>Email: yourmail@gmail.com</p>
+    <p>Location: India</p>
+</section>
+
+<footer>
+    <p>© 2026 Venkat Sai | My Portfolio</p>
+</footer>
+
+</body>
+</html>
